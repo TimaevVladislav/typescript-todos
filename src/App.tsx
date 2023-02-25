@@ -2,7 +2,7 @@ import React from 'react'
 import {Navigation} from "./components/Navigation"
 import {Route, Routes} from "react-router-dom"
 import {Home} from "./pages/Home"
-import Info from "./pages/Info"
+import About from "./pages/About"
 
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
       <Navigation />
       <Routes>
           <Route path="/" element={ <Home /> } />
-          <Route path="/about" element={ <Info /> } />
+          <Route path="/about" element={ <About /> } />
       </Routes>
     </>
   )
